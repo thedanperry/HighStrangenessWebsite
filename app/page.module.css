@@ -212,24 +212,28 @@
 }
 
 .footer {
-  padding: 100px 20px;
+  padding: 100px 20px 80px;
   text-align: center;
   background: #0a0a0a;
   border-top: 1px solid rgba(0, 255, 65, 0.2);
 }
 
 .footerText {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 40px;
-  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 50px;
+  font-size: 0.9rem;
   font-weight: 300;
+  letter-spacing: 0.02em;
 }
 
 .footerLinks {
   display: flex;
-  gap: 40px;
+  gap: 0;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .footerLinks a {
@@ -239,13 +243,20 @@
   letter-spacing: 0.02em;
   font-weight: 400;
   text-decoration: none;
-  padding: 8px 0;
-  border-bottom: 1px solid transparent;
+  padding: 12px 24px;
+  margin: 0 8px;
+  border: 1px solid rgba(0, 255, 65, 0.3);
+  border-radius: 6px;
+  background: rgba(0, 255, 65, 0.05);
+  display: inline-block;
 }
 
 .footerLinks a:hover {
-  color: #ff3333;
-  border-bottom-color: #ff3333;
+  color: #ffffff;
+  background: rgba(0, 255, 65, 0.15);
+  border-color: #00ff41;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 65, 0.2);
 }
 
 /* Legal Pages Styles */
@@ -394,5 +405,20 @@
 
   .legalContent h2 {
     font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 80px 20px 60px;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footerLinks a {
+    width: 100%;
+    max-width: 280px;
+    margin: 0;
   }
 }
