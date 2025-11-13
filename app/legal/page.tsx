@@ -9,7 +9,6 @@ export default function Legal() {
         <div className={styles.container}>
           <Link href="/" className={styles.backLink}>← Back to Home</Link>
           <h1 className={styles.legalTitle}>Legal Disclaimer</h1>
-          <p className={styles.legalDate}>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
           
           <div className={styles.legalContent}>
             <h2>General Disclaimer</h2>
