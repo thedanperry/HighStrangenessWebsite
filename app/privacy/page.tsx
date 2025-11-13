@@ -77,6 +77,21 @@ export default function Privacy() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className={styles.footer}>
+        <div className={styles.container}>
+          <p className={styles.footerText}>
+            © {new Date().getFullYear()} High Strangeness. All rights reserved.
+          </p>
+          <div className={styles.footerLinks}>
+            <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/terms">Terms of Service</Link>
+            <Link href="/legal">Legal Disclaimer</Link>
+            <a href="mailto:support@highstrangeness.app">Contact</a>
+          </div>
+        </div>
+      </footer>
     </main>
   )
 }
