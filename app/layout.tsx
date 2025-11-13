@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: 'High Strangeness | Paranormal Discovery App',
   description: 'An AI-assisted paranormal logging and discovery app. A living map of the unexplained. Report UFO sightings, ghost encounters, and cryptid sightings. Explore an interactive map of paranormal activity worldwide.',
   keywords: ['paranormal', 'UFO', 'UAP', 'ghost', 'cryptid', 'supernatural', 'app', 'sightings', 'reports', 'haunted', 'alien', 'unexplained'],
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: 'High Strangeness',
     description: 'An AI-assisted paranormal logging and discovery app. A living map of the unexplained.',

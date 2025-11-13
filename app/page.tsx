@@ -14,21 +14,19 @@ export default function Home() {
             <Image
               src="/logo.png"
               alt="High Strangeness"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               priority
               className={styles.logo}
             />
           </div>
-          <h1 className={styles.title}>HIGH STRANGENESS</h1>
-          <p className={styles.subtitle}>Anomalous activity database</p>
           <p className={styles.tagline}>
             An AI-assisted paranormal logging and discovery app. A living map of the unexplained.
           </p>
           
           <div className={styles.ctaButtons}>
             <a
-              href="https://apps.apple.com/app/high-strangeness"
+              href="https://apps.apple.com/search?term=High%20Strangeness"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.primaryButton}
@@ -36,7 +34,7 @@ export default function Home() {
               Download for iOS
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.highstrangeness.app"
+              href="https://play.google.com/store/search?q=High%20Strangeness"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.secondaryButton}
@@ -50,55 +48,67 @@ export default function Home() {
       {/* Features Section */}
       <section className={styles.features}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Features</h2>
-          <div className={styles.featureGrid}>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Report Something</h3>
-              <p className={styles.featureDescription}>
-                Document your paranormal experiences with photos, videos, and detailed notes. Log UFO sightings, ghost encounters, cryptid sightings, and unexplained phenomena. Tag locations and categorize by type for comprehensive documentation.
-              </p>
+          <h2 className={styles.sectionTitle}>Key Features</h2>
+          
+          <div className={styles.featureList}>
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Report Experiences</h3>
+                <p className={styles.featureDescription}>
+                  Document your paranormal experiences with photos, videos, and detailed notes. Log UFO sightings, ghost encounters, cryptid sightings, and unexplained phenomena. Tag locations and categorize by type for comprehensive documentation.
+                </p>
+              </div>
             </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Record Something</h3>
-              <p className={styles.featureDescription}>
-                Field Scanner uses your device sensors to detect EMF anomalies, motion, pressure changes, and light fluctuations. Real-time anomaly detection with statistical analysis. Record sessions with video and sensor data for later review.
-              </p>
+
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Field Scanner</h3>
+                <p className={styles.featureDescription}>
+                  Field Scanner uses your device sensors to detect EMF anomalies, motion, pressure changes, and light fluctuations. Real-time anomaly detection with statistical analysis. Record sessions with video and sensor data for later review.
+                </p>
+              </div>
             </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Read Something</h3>
-              <p className={styles.featureDescription}>
-                Access curated essential texts covering paranormal research, UFO investigations, cryptid studies, and unexplained phenomena. Built-in reader with categorized library of authoritative works on the unexplained.
-              </p>
+
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Interactive Map</h3>
+                <p className={styles.featureDescription}>
+                  Explore a global map of sightings, hauntings, and unexplained phenomena. View user reports, historical locations, and external sources. Filter by category, date, and verification status to discover patterns and hotspots.
+                </p>
+              </div>
             </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Watch Something</h3>
-              <p className={styles.featureDescription}>
-                Essential transmissions from leading paranormal media. Curated podcasts and YouTube channels including Last Podcast on the Left, WEAPONIZED, Coast to Coast AM, and other premier voices in paranormal research.
-              </p>
+
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Community Feed</h3>
+                <p className={styles.featureDescription}>
+                  Browse trending reports, verified encounters, and historical sightings. AI-assisted categorization and trending analysis. Stay updated on the latest paranormal activity from around the world.
+                </p>
+              </div>
             </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Say Something</h3>
-              <p className={styles.featureDescription}>
-                Community threads for discussion and investigation. Share theories, ask questions, and connect with fellow researchers. Engage with reports, upvote compelling encounters, and contribute to the collective understanding.
-              </p>
+
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Literature Archive</h3>
+                <p className={styles.featureDescription}>
+                  Access curated essential texts covering paranormal research, UFO investigations, cryptid studies, and unexplained phenomena. Built-in reader with categorized library of authoritative works on the unexplained.
+                </p>
+              </div>
             </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Do Something</h3>
-              <p className={styles.featureDescription}>
-                Discover paranormal events, conferences, and gatherings. Find local meetups, UFO congresses, MUFON symposiums, and haunted location tours. Connect with the community in person.
-              </p>
-            </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Interactive Map</h3>
-              <p className={styles.featureDescription}>
-                Explore a global map of sightings, hauntings, and unexplained phenomena. View user reports, historical locations, and external sources. Filter by category, date, and verification status to discover patterns and hotspots.
-              </p>
-            </div>
-            <div className={styles.featureCard}>
-              <h3 className={styles.featureTitle}>Community Feed</h3>
-              <p className={styles.featureDescription}>
-                Browse trending reports, verified encounters, and historical sightings. AI-assisted categorization and trending analysis. Stay updated on the latest paranormal activity from around the world.
-              </p>
+
+            <div className={styles.featureItem}>
+              <span className={styles.featureIcon}>⚡</span>
+              <div className={styles.featureContent}>
+                <h3 className={styles.featureTitle}>Media Transmissions</h3>
+                <p className={styles.featureDescription}>
+                  Essential transmissions from leading paranormal media. Curated podcasts and YouTube channels including Last Podcast on the Left, WEAPONIZED, Coast to Coast AM, and other premier voices in paranormal research.
+                </p>
+              </div>
             </div>
           </div>
         </div>
