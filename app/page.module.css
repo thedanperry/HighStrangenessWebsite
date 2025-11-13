@@ -1,0 +1,276 @@
+.main {
+  min-height: 100vh;
+  position: relative;
+  background-color: #000000;
+  color: #00ff41;
+}
+
+.scanlineOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  background: linear-gradient(
+    transparent 50%,
+    rgba(0, 255, 65, 0.03) 50%
+  );
+  background-size: 100% 4px;
+  animation: scanline 8s linear infinite;
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.logoContainer {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px rgba(0, 255, 65, 0.3));
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  margin-bottom: 16px;
+  text-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+  color: #00ff41;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 18px 40px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  border: 2px solid #00ff41;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.primaryButton {
+  background-color: #00ff41;
+  color: #000000;
+}
+
+.primaryButton:hover {
+  background-color: #00cc33;
+  border-color: #00cc33;
+  box-shadow: 0 0 30px rgba(0, 255, 65, 0.6);
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  background-color: transparent;
+  color: #00ff41;
+}
+
+.secondaryButton:hover {
+  background-color: rgba(0, 255, 65, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.4);
+  transform: translateY(-2px);
+}
+
+.features {
+  padding: 120px 20px;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 80px;
+  letter-spacing: 0.2em;
+  color: #00ff41;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.featureCard {
+  padding: 32px;
+  border: 1px solid rgba(0, 255, 65, 0.3);
+  background-color: rgba(0, 255, 65, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  border-color: #00ff41;
+  background-color: rgba(0, 255, 65, 0.1);
+  box-shadow: 0 0 25px rgba(0, 255, 65, 0.25);
+  transform: translateY(-5px);
+}
+
+.featureTitle {
+  font-size: 1.4rem;
+  color: #00ff41;
+  margin-bottom: 16px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.featureDescription {
+  color: #ffffff;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.about {
+  padding: 120px 20px;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.aboutContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.aboutText {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.footer {
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.footerText {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footerLinks a {
+  color: #00ff41;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.footerLinks a:hover {
+  color: #00cc33;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.2rem;
+    letter-spacing: 0.2em;
+  }
+  
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
