@@ -24,7 +24,7 @@ export default function Legal() {
 
             <h2>Field Scanner Disclaimer</h2>
             <p>
-              The Field Scanner feature uses real device sensors (magnetometer, accelerometer, barometer, light sensor, microphone) to measure environmental conditions. While the sensor readings are real measurements from actual device hardware, the detection of "anomalies" is based on statistical analysis (standard deviation thresholds) and does not constitute scientific proof of paranormal activity.
+              The Field Scanner feature uses real device sensors (magnetometer, accelerometer, barometer, light sensor, microphone) to measure environmental conditions. While the sensor readings are real measurements from actual device hardware, the detection of &quot;anomalies&quot; is based on statistical analysis (standard deviation thresholds) and does not constitute scientific proof of paranormal activity.
             </p>
             <p>
               Most detected anomalies have normal, explainable causes such as electrical appliances, device movement, weather changes, or sensor noise. The Field Scanner is a documentation and entertainment tool, not a scientific instrument for detecting paranormal phenomena.
@@ -47,7 +47,7 @@ export default function Legal() {
 
             <h2>No Warranty</h2>
             <p>
-              The App is provided "as is" without warranty of any kind. We disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+              The App is provided &quot;as is&quot; without warranty of any kind. We disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
             </p>
 
             <h2>Limitation of Liability</h2>

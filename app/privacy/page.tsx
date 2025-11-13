@@ -13,7 +13,7 @@ export default function Privacy() {
           
           <div className={styles.legalContent}>
             <p>
-              High Strangeness ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+              High Strangeness (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
             </p>
 
             <h2>Information We Collect</h2>
@@ -39,7 +39,7 @@ export default function Privacy() {
 
             <h2>Data Sharing and Disclosure</h2>
             <p>
-              Your reports and user-generated content are shared publicly on the app's map and feed. Location data is used to tag reports and is visible to other users. We do not sell your personal information to third parties.
+              Your reports and user-generated content are shared publicly on the app&apos;s map and feed. Location data is used to tag reports and is visible to other users. We do not sell your personal information to third parties.
             </p>
 
             <h2>Anonymous Usage</h2>
@@ -60,14 +60,14 @@ export default function Privacy() {
               <li>Request deletion of your account and associated data</li>
             </ul>
 
-            <h2>Children's Privacy</h2>
+            <h2>Children&apos;s Privacy</h2>
             <p>
               Our app is not intended for children under 13. We do not knowingly collect personal information from children under 13.
             </p>
 
             <h2>Changes to This Policy</h2>
             <p>
-              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
             </p>
 
             <h2>Contact Us</h2>

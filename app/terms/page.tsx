@@ -13,7 +13,7 @@ export default function Terms() {
           
           <div className={styles.legalContent}>
             <p>
-              Please read these Terms of Service ("Terms") carefully before using High Strangeness ("the App"). By accessing or using the App, you agree to be bound by these Terms.
+              Please read these Terms of Service (&quot;Terms&quot;) carefully before using High Strangeness (&quot;the App&quot;). By accessing or using the App, you agree to be bound by these Terms.
             </p>
 
             <h2>Acceptance of Terms</h2>
@@ -49,7 +49,7 @@ export default function Terms() {
 
             <h2>Field Scanner Disclaimer</h2>
             <p>
-              The Field Scanner feature uses real device sensors to detect environmental anomalies. Sensor readings are real measurements, but detected "anomalies" are statistical outliers that may have normal, explainable causes. The Field Scanner is a documentation tool and should not be considered definitive proof of paranormal activity.
+              The Field Scanner feature uses real device sensors to detect environmental anomalies. Sensor readings are real measurements, but detected &quot;anomalies&quot; are statistical outliers that may have normal, explainable causes. The Field Scanner is a documentation tool and should not be considered definitive proof of paranormal activity.
             </p>
 
             <h2>Intellectual Property</h2>
@@ -59,7 +59,7 @@ export default function Terms() {
 
             <h2>Disclaimer of Warranties</h2>
             <p>
-              The App is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee the accuracy, completeness, or usefulness of any information in the App.
+              The App is provided &quot;as is&quot; and &quot;as available&quot; without warranties of any kind, either express or implied. We do not guarantee the accuracy, completeness, or usefulness of any information in the App.
             </p>
 
             <h2>Limitation of Liability</h2>
@@ -74,7 +74,7 @@ export default function Terms() {
 
             <h2>Changes to Terms</h2>
             <p>
-              We reserve the right to modify these Terms at any time. We will notify users of any material changes by updating the "Last updated" date. Your continued use of the App after changes constitutes acceptance of the new Terms.
+              We reserve the right to modify these Terms at any time. We will notify users of any material changes by updating the &quot;Last updated&quot; date. Your continued use of the App after changes constitutes acceptance of the new Terms.
             </p>
 
             <h2>Contact Information</h2>
