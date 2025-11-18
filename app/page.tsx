@@ -197,7 +197,7 @@ export default function Home() {
                   <h3 className={styles.featureTitle}>Media Transmissions</h3>
                 </ScanlineOverlay>
                 <p className={styles.featureDescription}>
-                  Essential transmissions from leading paranormal media. Curated podcasts and YouTube channels including Last Podcast on the Left, WEAPONIZED, Coast to Coast AM, and other premier voices in paranormal research.
+                  Essential transmissions from the frontlines of paranormal research. Curated selection of premier podcasts and video channels covering UFO investigations, cryptid encounters, paranormal phenomena, and the unexplained. Stay connected to the latest discoveries and investigations from leading voices in the field.
                 </p>
               </div>
             </div>
