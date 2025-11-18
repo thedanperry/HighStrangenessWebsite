@@ -211,10 +211,10 @@ export default function Home() {
               High Strangeness is where the unexplained meets the documented. A field terminal for investigators, experiencers, and researchers mapping the edges of reality. Every sighting logged, every anomaly detected, every pattern discovered—all converging in one living database of the strange.
             </p>
             <p className={styles.aboutText}>
-              Whether you've witnessed something that defies explanation or you're tracking global patterns of anomalous activity, High Strangeness gives you the tools to document, analyze, and connect. Field scanners detect environmental anomalies. Interactive maps reveal hotspots. Community threads build understanding. This isn't just an app—it's a research platform for the unexplained.
+              Whether you&apos;ve witnessed something that defies explanation or you&apos;re tracking global patterns of anomalous activity, High Strangeness gives you the tools to document, analyze, and connect. Field scanners detect environmental anomalies. Interactive maps reveal hotspots. Community threads build understanding. This isn&apos;t just an app—it&apos;s a research platform for the unexplained.
             </p>
             <p className={styles.aboutText}>
-              Join investigators worldwide documenting UFO encounters, cryptid sightings, paranormal phenomena, and everything that exists in the space between known and unknown. The map is growing. The database is expanding. The truth is out there—and it's being logged here.
+              Join investigators worldwide documenting UFO encounters, cryptid sightings, paranormal phenomena, and everything that exists in the space between known and unknown. The map is growing. The database is expanding. The truth is out there—and it&apos;s being logged here.
             </p>
           </div>
         </div>
