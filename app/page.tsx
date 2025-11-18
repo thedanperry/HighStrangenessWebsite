@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <ScanlineOverlay scanlineSpacing={2} scanlineOpacity={0.3}>
             <p className={styles.tagline}>
-              A paranormal discovery app with a living map of the unexplained.
+              A paranormal discovery app & living map to the unexplained.
             </p>
           </ScanlineOverlay>
           
@@ -50,10 +50,90 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Screenshots Section */}
+      <section className={styles.screenshots}>
+        <div className={styles.container}>
+          <ScanlineOverlay scanlineSpacing={2} scanlineOpacity={0.3}>
+            <h2 className={styles.sectionTitle}>See It In Action</h2>
+          </ScanlineOverlay>
+          <p className={styles.screenshotsDescription}>
+            Explore the interface and discover how High Strangeness helps you document, analyze, and map paranormal activity worldwide.
+          </p>
+          <div className={styles.screenshotsGrid}>
+            <div className={styles.screenshotItem}>
+              <a
+                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/screenshots/screenshot-1.png"
+                  alt="High Strangeness home screen showing report, record, read, watch, say, and do options"
+                  width={300}
+                  height={650}
+                  className={styles.screenshotImage}
+                />
+                <p className={styles.screenshotLabel}>Home Screen</p>
+              </a>
+            </div>
+            <div className={styles.screenshotItem}>
+              <a
+                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/screenshots/screenshot-2.png"
+                  alt="Paranormal reports feed showing global anomalous activity with UFO and ghost sightings"
+                  width={300}
+                  height={650}
+                  className={styles.screenshotImage}
+                />
+                <p className={styles.screenshotLabel}>Paranormal Reports Feed</p>
+              </a>
+            </div>
+            <div className={styles.screenshotItem}>
+              <a
+                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/screenshots/screenshot-3.png"
+                  alt="Interactive world map showing anomalous activity hotspots and paranormal locations"
+                  width={300}
+                  height={650}
+                  className={styles.screenshotImage}
+                />
+                <p className={styles.screenshotLabel}>World Map</p>
+              </a>
+            </div>
+            <div className={styles.screenshotItem}>
+              <a
+                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/screenshots/screenshot-4.png"
+                  alt="Field Scanner interface with EMF, motion, and pressure sensors for anomaly detection"
+                  width={300}
+                  height={650}
+                  className={styles.screenshotImage}
+                />
+                <p className={styles.screenshotLabel}>Field Scanner</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className={styles.features}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Key Features</h2>
+          <ScanlineOverlay scanlineSpacing={2} scanlineOpacity={0.3}>
+            <h2 className={styles.sectionTitle}>Key Features</h2>
+          </ScanlineOverlay>
           
           <div className={styles.featureList}>
             <div className={styles.featureItem}>
@@ -120,81 +200,6 @@ export default function Home() {
                   Essential transmissions from leading paranormal media. Curated podcasts and YouTube channels including Last Podcast on the Left, WEAPONIZED, Coast to Coast AM, and other premier voices in paranormal research.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Screenshots Section */}
-      <section className={styles.screenshots}>
-        <div className={styles.container}>
-          <ScanlineOverlay scanlineSpacing={2} scanlineOpacity={0.3}>
-            <h2 className={styles.sectionTitle}>See It In Action</h2>
-          </ScanlineOverlay>
-          <div className={styles.screenshotsGrid}>
-            <div className={styles.screenshotItem}>
-              <a
-                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/screenshots/screenshot-1.png"
-                  alt="High Strangeness home screen showing report, record, read, watch, say, and do options"
-                  width={300}
-                  height={650}
-                  className={styles.screenshotImage}
-                />
-                <p className={styles.screenshotLabel}>Home Screen</p>
-              </a>
-            </div>
-            <div className={styles.screenshotItem}>
-              <a
-                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/screenshots/screenshot-2.png"
-                  alt="Paranormal reports feed showing global anomalous activity with UFO and ghost sightings"
-                  width={300}
-                  height={650}
-                  className={styles.screenshotImage}
-                />
-                <p className={styles.screenshotLabel}>Paranormal Reports Feed</p>
-              </a>
-            </div>
-            <div className={styles.screenshotItem}>
-              <a
-                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/screenshots/screenshot-3.png"
-                  alt="Interactive world map showing anomalous activity hotspots and paranormal locations"
-                  width={300}
-                  height={650}
-                  className={styles.screenshotImage}
-                />
-                <p className={styles.screenshotLabel}>World Map</p>
-              </a>
-            </div>
-            <div className={styles.screenshotItem}>
-              <a
-                href="https://apps.apple.com/us/app/high-strangeness/id6755126760"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src="/screenshots/screenshot-4.png"
-                  alt="Field Scanner interface with EMF, motion, and pressure sensors for anomaly detection"
-                  width={300}
-                  height={650}
-                  className={styles.screenshotImage}
-                />
-                <p className={styles.screenshotLabel}>Field Scanner</p>
-              </a>
             </div>
           </div>
         </div>
