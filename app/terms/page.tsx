@@ -1,14 +1,16 @@
 import Link from 'next/link'
 import styles from '../page.module.css'
+import { ScanlineOverlay } from '../components/ScanlineOverlay'
 
 export default function Terms() {
   return (
     <main className={styles.main}>
-      <div className={styles.scanlineOverlay} />
       <section className={styles.legalPage}>
         <div className={styles.container}>
           <Link href="/" className={styles.backLink}>← Back to Home</Link>
-          <h1 className={styles.legalTitle}>Terms of Service</h1>
+          <ScanlineOverlay scanlineSpacing={2} scanlineOpacity={0.3}>
+            <h1 className={styles.legalTitle}>Terms of Service</h1>
+          </ScanlineOverlay>
           
           <div className={styles.legalContent}>
             <p>
