@@ -213,13 +213,13 @@ export default function Home() {
           </ScanlineOverlay>
           <div className={styles.aboutContent}>
             <p className={styles.aboutText}>
-              High Strangeness is where the unexplained meets the documented. A field terminal for investigators, experiencers, and researchers mapping the edges of reality. Every sighting logged. Every anomaly detected. Every pattern discovered. All converging in one living database of the strange.
+              Ever see something weird and think &quot;I should really write that down&quot;? Well, now you can! High Strangeness is your go-to spot for logging all the spooky, strange, and straight-up unexplainable stuff happening around you. Think of it as your paranormal field notes, but way cooler and with way more emojis.
             </p>
             <p className={styles.aboutText}>
-              You&apos;ve seen something. Something that doesn&apos;t fit. Something that shouldn&apos;t exist. High Strangeness gives you the tools to document it, analyze it, and connect with others who&apos;ve seen it too. Field scanners detect what your eyes can&apos;t. Interactive maps reveal patterns hidden in plain sight. Community threads piece together the bigger picture. This isn&apos;t just an app. It&apos;s a research platform for the unexplained.
+              Whether you&apos;re a seasoned ghost hunter, a UFO enthusiast, or just someone who saw something weird in the woods last Tuesday, this app has your back. Use the field scanner to catch what your phone can see (but you can&apos;t). Map out where all the weird stuff is happening. Connect with other people who&apos;ve also seen things that make zero sense. It&apos;s like social media, but for the unexplained.
             </p>
             <p className={styles.aboutText}>
-              Join investigators worldwide documenting encounters that defy explanation. UFO sightings. Cryptid encounters. Paranormal phenomena. Everything that exists in the space between known and unknown. The map is growing. The database is expanding. The truth is out there. And it&apos;s being logged here.
+              Join thousands of people documenting everything from Bigfoot sightings to glowing orbs in the sky. The more we log, the weirder the map gets. And honestly? We&apos;re here for it. Download the app and start adding your own strange encounters to the mix. Who knows what patterns we&apos;ll discover together?
             </p>
           </div>
         </div>
