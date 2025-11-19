@@ -34,58 +34,79 @@ body::before {
   height: 100%;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.12;
+  opacity: 0.4;
   background-image: 
     repeating-linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.03),
-      rgba(255, 255, 255, 0.03) 1px,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
       transparent 1px,
       transparent 2px
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.03),
-      rgba(255, 255, 255, 0.03) 1px,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
       transparent 1px,
       transparent 2px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 3px
     );
-  background-size: 3px 3px;
+  background-size: 2px 2px, 2px 2px, 4px 4px;
   mix-blend-mode: overlay;
-  animation: grain 8s steps(10) infinite;
-  will-change: transform;
+  animation: grain 0.2s steps(6) infinite;
+  will-change: transform, opacity;
 }
 
 @keyframes grain {
-  0%, 100% {
+  0% {
     transform: translate(0, 0);
+    opacity: 0.4;
   }
   10% {
-    transform: translate(-1%, -2%);
+    transform: translate(-2%, -3%);
+    opacity: 0.35;
   }
   20% {
-    transform: translate(-3%, 1%);
+    transform: translate(-5%, 2%);
+    opacity: 0.45;
   }
   30% {
-    transform: translate(1%, -5%);
+    transform: translate(2%, -6%);
+    opacity: 0.38;
   }
   40% {
-    transform: translate(-1%, 5%);
+    transform: translate(-2%, 6%);
+    opacity: 0.42;
   }
   50% {
-    transform: translate(-3%, 2%);
+    transform: translate(-5%, 3%);
+    opacity: 0.36;
   }
   60% {
-    transform: translate(3%, 0%);
+    transform: translate(5%, 0%);
+    opacity: 0.44;
   }
   70% {
-    transform: translate(0%, 3%);
+    transform: translate(0%, 5%);
+    opacity: 0.39;
   }
   80% {
-    transform: translate(1%, 7%);
+    transform: translate(3%, 8%);
+    opacity: 0.41;
   }
   90% {
-    transform: translate(-2%, 2%);
+    transform: translate(-3%, 3%);
+    opacity: 0.37;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.4;
   }
 }
 
